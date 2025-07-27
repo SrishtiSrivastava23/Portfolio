@@ -23,10 +23,10 @@ A modern, dark-themed portfolio website to showcase my skills, projects, and con
 
 ## 🎯 Features
 
-- 🔥 Responsive dark-themed layout
-- 💬 Typing effect with blinking cursor
-- 📁 Project cards with GitHub links
-- 📬 Contact form that:
+-  Responsive dark-themed layout
+-  Typing effect with blinking cursor
+-  Project cards with GitHub links
+-  Contact form that:
   - Prints data to console
   - Saves submissions to `contact_data.csv`
 
