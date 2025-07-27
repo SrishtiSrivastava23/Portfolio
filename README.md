@@ -39,7 +39,7 @@ A modern, dark-themed portfolio website to showcase my skills, projects, and con
 ---
 
 ## 📂 Project Structure
----
+```
 portfolio/
 │
 ├── app.py # Flask backend
@@ -53,7 +53,7 @@ portfolio/
 │ │ └── style.css # Styling
 │ ├── js/
 │ │ └── script.js # Typing + dark mode JS
----
+```
 
 ## 🚀 Run Locally
 
