@@ -1,7 +1,6 @@
 # Portfolio
 Portfolio website
 # 💻 Srishti Srivastava | Developer Portfolio
-
 A modern, dark-themed portfolio website to showcase my skills, projects, and contact information. Built using **HTML, CSS, JavaScript**, and **Flask (Python)**. It includes a typing animation, dark mode toggle, and stores contact form data in a CSV file.
 
 
