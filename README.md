@@ -34,7 +34,7 @@ A modern, dark-themed portfolio website to showcase my skills, projects, and con
 
 ## 🖼️ Screenshots
 
-![Screenshot](screenshots/preview.png) <!-- Optional -->
+![Screenshot](ss.png) <!-- Optional -->
 
 ---
 
