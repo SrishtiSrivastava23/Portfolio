@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Srishti | Portfolio</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+
+  <!-- Navbar -->
+  <nav class="navbar">
+  <div class="navbar-left">
+    <div class="logo">Srishti Srivastava</div>
+  </div>
+  <div class="navbar-right">
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="darkToggle" title="Toggle Dark Mode">🌙</button>
+  </div>
+</nav>
+
+
+  <!-- Hero -->
+  <header class="hero">
+  <h1>Hi, I’m <strong class="typing-text"></strong><span class="cursor">|</span></h1>
+
+  <p>AI/ML Enthusiast | Final-Year B.Tech | Developer</p>
+
+  <a href="#contact" class="btn">Let’s Talk</a>
+</header>
+
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Passionate computer science student with a growing interest in Artificial Intelligence and deep learning, eager to expand my
+knowledge and skills in software development.</p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="card">
+        <h3>💸 Currency Detection</h3>
+        <p>Used CNN and SVM to identify fake Indian currency notes with 97% accuracy.</p><a href="https://github.com/SrishtiSrivastava23/Currency_detection" class="btn" >View</a>
+
+      </div>
+      <div class="card">
+        <h3>🏥 Hospital Management</h3>
+        <p>File-based C++ project for managing patients, appointments, and billing.</p><a href="https://github.com/SrishtiSrivastava23/Hospital_Management" class="btn" >View</a>
+      </div>
+      <div class="card">
+        <h3>⏲️FocusUp</h3>
+        <p>FocusUp is a visually charming and minimal Pomodoro timer application created using Python and Tkinter.</p><a href="https://github.com/SrishtiSrivastava23/FocusUp" class="btn" >View</a>
+      </div>
+        <div class="card">
+        <h3>👋ChatApp</h3>
+        <p>A simple encrypted chat application built with Python using sockets, threading, and Fernet symmetric encryption. The project includes a server that handles multiple clients, and a client with a Tkinter GUI to send and receive encrypted messages in real-time.</p><a href="https://github.com/SrishtiSrivastava23/Basic_chat_application" class="btn" >View</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form method="POST" action="/contact" id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send <i class="fas fa-paper-plane"></i></button>
+    </form>
+  </section>
+
+  <!-- Social Media -->
+  <div class="social-links">
+    <a href="https://github.com/SrishtiSrivastava23" target="_blank"><i class="fab fa-github"></i></a>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Srishti Srivastava</p>
+  </footer>
+
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
