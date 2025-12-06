@@ -42,17 +42,17 @@ A modern, dark-themed portfolio website to showcase my skills, projects, and con
 ```
 portfolio/
 │
-├── app.py # Flask backend
-├── contact_data.csv # Stores contact form submissions
+├── app.py
+├── contact_data.csv 
 │
 ├── templates/
-│ └── index.html # Main HTML file
+│ └── index.html 
 │
 ├── static/
 │ ├── css/
-│ │ └── style.css # Styling
+│ │ └── style.css 
 │ ├── js/
-│ │ └── script.js # Typing + dark mode JS
+│ │ └── script.js 
 ```
 
 ## Run Locally
