@@ -6,7 +6,7 @@ A modern, dark-themed portfolio website to showcase my skills, projects, and con
 
 ---
 
-## 🧩 Tech Stack
+##  Tech Stack
 
 ### Frontend:
 - HTML5
@@ -20,7 +20,7 @@ A modern, dark-themed portfolio website to showcase my skills, projects, and con
 
 ---
 
-## 🎯 Features
+## Features
 
 -  Responsive dark-themed layout
 -  Typing effect with blinking cursor
@@ -31,14 +31,14 @@ A modern, dark-themed portfolio website to showcase my skills, projects, and con
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
 ![Screenshot](SS.png)
 ![Screenshot](SCREENSHOT.png)<!-- Optional -->
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```
 portfolio/
 │
@@ -55,7 +55,7 @@ portfolio/
 │ │ └── script.js # Typing + dark mode JS
 ```
 
-## 🚀 Run Locally
+## Run Locally
 
 ### 1. Clone the Repository
 
@@ -79,12 +79,11 @@ pip install flask
 python app.py
 ```
 
-📝 Contact Form Handling
+Contact Form Handling
 Submissions are stored in contact_data.csv
 
 If the file doesn’t exist, it is created automatically
 
 Each row includes: Name, Email, Message
 
-👩‍💻 Author
-Srishti Srivastava
+
